@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "47c8b980-4b8e-4c64-94f4-08084f535ac6",
+		"name": "json-tools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "drop field",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Drop one or more fields in given json formatted string"
+			},
+			"response": [
+				{
+					"name": "drop field example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/drop?json=\"id\": \"1001\", \"type\": \"Regular\"&toDrop=id",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"drop"
+							],
+							"query": [
+								{
+									"key": "json",
+									"value": "\"id\": \"1001\", \"type\": \"Regular\""
+								},
+								{
+									"key": "toDrop",
+									"value": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 05 Dec 2020 00:22:24 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": \"{\\\"type\\\":\\\"Regular\\\"}\"\n}"
+				}
+			]
+		},
+		{
+			"name": "minify json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "minify json example",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/minify?json=\n\t\t\t\t\t\t\"id\": \"0001\",\n\t\t\t\t\t\t\"type\": \"donut\",\n\t\t\t\t\t\t\"name\": \"Cake\",\n\t\t\t\t\t\t\"ppu\": 0.55",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"minify"
+							],
+							"query": [
+								{
+									"key": "json",
+									"value": "\n\t\t\t\t\t\t\"id\": \"0001\",\n\t\t\t\t\t\t\"type\": \"donut\",\n\t\t\t\t\t\t\"name\": \"Cake\",\n\t\t\t\t\t\t\"ppu\": 0.55"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 05 Dec 2020 00:23:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": \"{\\\"id\\\":\\\"0001\\\",\\\"type\\\":\\\"donut\\\",\\\"name\\\":\\\"Cake\\\",\\\"ppu\\\":0.55}\"\n}"
+				}
+			]
+		},
+		{
+			"name": "beautyfy json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
