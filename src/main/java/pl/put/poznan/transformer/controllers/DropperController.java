@@ -1,5 +1,7 @@
 package pl.put.poznan.transformer.controllers;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Controller;
@@ -19,11 +21,14 @@ import java.util.Set;
 @RequestMapping("/drop")
 public class DropperController {
 
+    private final Logger logger = LoggerFactory.getLogger(DropperController.class);
+
     @GetMapping("")
     public EntityModel<StringDTO> drop(
             @RequestParam("json") SimpleJSONDTO simpleJSONDTO,
             @RequestParam("toDrop") Set<String> toDrop
     ){
+        this.logger.info("Drop request processing");
         JSONDTO dropalbleJSONDTO = DropableJSONDTO.builder()
                 .toDrop(toDrop)
                 .input(

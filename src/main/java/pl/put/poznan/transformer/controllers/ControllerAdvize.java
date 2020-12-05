@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.InitBinder;
-import pl.put.poznan.transformer.PropertyEditors.SimpleJSONDTOPropertyEditor;
+import pl.put.poznan.transformer.PropertyEditor.SimpleJSONDTOPropertyEditor;
 import pl.put.poznan.transformer.models.DTO.SimpleJSONDTO;
 
 @ControllerAdvice
