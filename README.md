@@ -11,7 +11,7 @@ quick enrollment into system endpoints architecture
 *TODO: Fill this as part of documentation making process*  
 
 ## DevTeam
-- [@ptylczynski](localhost)  
+- [@ptylczynski](ptylczynski)  
 - @MichalOlszewski  
 - @profilusuniety  
 - Michał Piechocki daj githuba xd
