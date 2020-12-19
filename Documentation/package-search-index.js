@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"pl.put.poznan.transformer.app"},{"l":"pl.put.poznan.transformer.controllers"},{"l":"pl.put.poznan.transformer.models"},{"l":"pl.put.poznan.transformer.models.DTO"},{"l":"pl.put.poznan.transformer.processors"},{"l":"pl.put.poznan.transformer.PropertyEditor"}]
