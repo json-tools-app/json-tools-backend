@@ -1,0 +1,26 @@
+cmd.exe
+/X
+/C
+"D:\JDK\bin\javadoc.exe @options @packages"
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\allclasses-index.html = 1608380617918
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\allpackages-index.html = 1608380617920
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\constant-values.html = 1608380617776
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\deprecated-list.html = 1608380617877
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\element-list = 1608380617726
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\help-doc.html = 1608380617928
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\index-all.html = 1608380617913
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\index.html = 1608380617882
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\member-search-index.js = 1608380617910
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\member-search-index.zip = 1608380617911
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\options = 1608380616414
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\overview-summary.html = 1608380617925
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\overview-tree.html = 1608380617869
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\package-search-index.js = 1608380617899
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\package-search-index.zip = 1608380617902
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\packages = 1608380616415
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\script.js = 1608380617932
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\search.js = 1608380617934
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\stylesheet.css = 1608380617931
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\system-properties.html = 1608380617923
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\type-search-index.js = 1608380617904
+C:\Users\48608\Desktop\IO\json-tools-backend\target\apidocs\type-search-index.zip = 1608380617905

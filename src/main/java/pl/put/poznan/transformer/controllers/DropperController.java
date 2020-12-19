@@ -20,7 +20,7 @@ import java.util.Set;
 /**
  * Class use to prepare drop process
  *
- * @author Michał Olszewski
+ * @author Michal Olszewski
  * @version 1.0
  */
 

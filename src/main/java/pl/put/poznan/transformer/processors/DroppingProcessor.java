@@ -14,7 +14,7 @@ import java.util.Optional;
 /**
  * Class use to do drop process
  *
- * @author Piotr Tylczyński
+ * @author Piotr Tylczynski
  * @version 1.0
  */
 
