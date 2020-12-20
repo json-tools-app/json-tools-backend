@@ -1,1 +1,5 @@
 language: Java
+
+notifications:
+  email:
+    - michal.pie99@gmail.com
