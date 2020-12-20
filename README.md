@@ -14,4 +14,4 @@ quick enrollment into system endpoints architecture
 - [@ptylczynski](https://github.com/ptylczynski/)  
 - @MichalOlszewski  
 - @profilusuniety  
-- Michał Piechocki daj githuba xd
+- @michal-p99
