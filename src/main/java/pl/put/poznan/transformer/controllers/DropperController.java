@@ -17,11 +17,26 @@ import pl.put.poznan.transformer.processors.DroppingProcessor;
 
 import java.util.Set;
 
+/**
+ * Class use to prepare drop process
+ *
+ * @author Michal Olszewski
+ * @version 1.0
+ */
+
 @RestController
 @RequestMapping("/drop")
 public class DropperController {
 
     private final Logger logger = LoggerFactory.getLogger(DropperController.class);
+
+    /**
+     * Display info and prepare data to process
+     *
+     * @param simpleJSONDTO file to change
+     * @param toDrop param that should be dropped
+     * @return new DroppingProcessor
+     */
 
     @GetMapping("")
     public EntityModel<StringDTO> drop(

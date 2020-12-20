@@ -11,18 +11,43 @@ import pl.put.poznan.transformer.models.DTO.JSONDTO;
 
 import java.util.Optional;
 
+/**
+ * Class use to do drop process
+ *
+ * @author Piotr Tylczynski
+ * @version 1.0
+ */
+
 public class DroppingProcessor extends Processor{
 
     private final Logger logger = LoggerFactory.getLogger(DroppingProcessor.class);
 
     private final Optional<Processor> processor;
+
+    /**
+     * Main DroppingProcessor constructor
+     */
     public DroppingProcessor() {
         this.processor = Optional.empty();
     }
 
+    /**
+     * DroppingProcessor constructor which is used
+     * when we want to activate more than just one processor
+     *
+     * @param processor another processor to start
+     */
+
     public DroppingProcessor(Processor processor) {
         this.processor = Optional.of(processor);
     }
+
+    /**
+     * Recursive processors running and dropping selected info
+     *
+     * @param from prepared data
+     * @return processed data
+     */
 
     @Override
     public JSONDTO process(JSONDTO from) {

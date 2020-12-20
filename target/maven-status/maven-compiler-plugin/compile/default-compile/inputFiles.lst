@@ -1,3 +1,18 @@
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/app/TextTransformerApplication.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/logic/TextTransformer.java
-/Users/mochodek/Documents/Dydaktyka/Wyklady/IO/Laboratory classes/projekt/ioprojectarchitecture/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\DTO\ExceptionDTO.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\processors\MinifyingProcessor.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\processors\Processor.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\controllers\DropperController.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\DTO\DropableJSONDTO.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\PropertyEditor\SimpleJSONDTOPropertyEditor.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\controllers\ControllerAdvize.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\controllers\BeautyfyController.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\DTO\JSONDTO.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\DTO\StringDTO.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\processors\DroppingProcessor.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\controllers\ExceptionControllers.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\controllers\MinifyingController.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\processors\BeautyfyProcessor.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\processors\Processable.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\DTO\SimpleJSONDTO.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\app\TextTransformerApplication.java
+C:\Users\48608\Desktop\IO\json-tools-backend\src\main\java\pl\put\poznan\transformer\models\d.java
