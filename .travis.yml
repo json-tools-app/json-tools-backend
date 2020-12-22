@@ -3,3 +3,4 @@ language: Java
 notifications:
   email:
     - michal.pie99@gmail.com
+    - martyna.mirkiewicz@wp.pl
