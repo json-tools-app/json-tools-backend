@@ -12,6 +12,6 @@ quick enrollment into system endpoints architecture
 
 ## DevTeam
 - [@ptylczynski](https://github.com/ptylczynski/)  
-- @MichalOlszewski  
+- [@MichalOlszewski](https://github.com/MichalOlszewski)
 - @profilusuniety  
 - @michal-p99 
