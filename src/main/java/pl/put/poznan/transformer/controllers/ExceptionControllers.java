@@ -3,6 +3,7 @@ package pl.put.poznan.transformer.controllers;
 import com.fasterxml.jackson.core.JsonParseException;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -18,6 +19,16 @@ public class ExceptionControllers {
         return EntityModel.of(
                 new ExceptionDTO(
                         ex.getMessage()
+                )
+        );
+    }
+
+    @ExceptionHandler({MissingServletRequestParameterException.class})
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public EntityModel<ExceptionDTO> handle(MissingServletRequestParameterException ex){
+        return EntityModel.of(
+                new ExceptionDTO(
+                        "Missing parameter"
                 )
         );
     }
