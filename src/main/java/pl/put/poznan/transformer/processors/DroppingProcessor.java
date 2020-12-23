@@ -1,8 +1,6 @@
 package pl.put.poznan.transformer.processors;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pl.put.poznan.transformer.models.DTO.DropableJSONDTO;
@@ -20,7 +18,7 @@ import java.util.Optional;
 
 public class DroppingProcessor extends Processor{
 
-    private final Logger logger = LoggerFactory.getLogger(DroppingProcessor.class);
+    private final Logger logger = LoggerFactory.getLogger(FilterProcessor.class);
 
     private final Optional<Processor> processor;
 

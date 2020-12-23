@@ -3,8 +3,6 @@ package pl.put.poznan.transformer.controllers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.hateoas.EntityModel;
-import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,7 +11,7 @@ import pl.put.poznan.transformer.models.DTO.DropableJSONDTO;
 import pl.put.poznan.transformer.models.DTO.JSONDTO;
 import pl.put.poznan.transformer.models.DTO.SimpleJSONDTO;
 import pl.put.poznan.transformer.models.DTO.StringDTO;
-import pl.put.poznan.transformer.processors.DroppingProcessor;
+import pl.put.poznan.transformer.processors.FilterProcessor;
 
 import java.util.Set;
 
@@ -50,7 +48,7 @@ public class DropperController {
                         simpleJSONDTO.getInput()
                 ).build();
 
-        return new DroppingProcessor()
+        return new FilterProcessor()
                 .process(
                         dropalbleJSONDTO
                 ).toEntityModel();
