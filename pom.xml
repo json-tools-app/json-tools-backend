@@ -44,7 +44,6 @@
         <dependency>
             <groupId>com.google.collections</groupId>
             <artifactId>google-collections</artifactId>
-            <version>19.0</version>
         </dependency>
     </dependencies>
     <build>
