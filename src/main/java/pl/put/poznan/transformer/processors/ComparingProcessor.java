@@ -77,6 +77,12 @@ public class ComparingProcessor extends Processor{
                         diff.add("(" + s + ")");
                     }
                 }
+
+                for(String s : keys2){
+                    if(!keys1.contains(s)){
+                        diff.add("(" + s + ")");
+                    }
+                }
             }
             StringBuilder sb = new StringBuilder();
             sb.append("Differences:");
