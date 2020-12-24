@@ -11,6 +11,7 @@ import pl.put.poznan.transformer.models.DTO.DropableJSONDTO;
 import pl.put.poznan.transformer.models.DTO.JSONDTO;
 import pl.put.poznan.transformer.models.DTO.SimpleJSONDTO;
 import pl.put.poznan.transformer.models.DTO.StringDTO;
+import pl.put.poznan.transformer.processors.DroppingProcessor;
 import pl.put.poznan.transformer.processors.FilterProcessor;
 
 import java.util.Set;
@@ -48,7 +49,7 @@ public class DropperController {
                         simpleJSONDTO.getInput()
                 ).build();
 
-        return new FilterProcessor()
+        return new DroppingProcessor()
                 .process(
                         dropalbleJSONDTO
                 ).toEntityModel();
