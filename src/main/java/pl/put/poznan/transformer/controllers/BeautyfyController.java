@@ -11,12 +11,22 @@ import pl.put.poznan.transformer.models.DTO.SimpleJSONDTO;
 import pl.put.poznan.transformer.models.DTO.StringDTO;
 import pl.put.poznan.transformer.processors.BeautyfyProcessor;
 
+/**
+ * Class use to prepare beautyfy process
+ * @version 1.0
+ */
+
 @RestController
 @RequestMapping("/beautyfy")
 public class BeautyfyController {
 
     private final Logger logger = LoggerFactory.getLogger(BeautyfyController.class);
 
+    /**
+     * Display info, prepare data to process
+     * @param simpleJSONDTO file to change
+     * @return new BeautyfyProcessor
+     */
     @GetMapping("")
     public EntityModel<StringDTO> get(
             @RequestParam("json")SimpleJSONDTO simpleJSONDTO
