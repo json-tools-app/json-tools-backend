@@ -10,9 +10,9 @@
     </parent>
     <groupId>pl.put.poznan</groupId>
     <artifactId>io-project-architecture</artifactId>
-    <version>1.5.1-release</version>
+    <version>1.6.2-release</version>
     <name>io-project-architecture</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Backend for JSON-Tools app</description>
     <properties>
         <java.version>11</java.version>
     </properties>
